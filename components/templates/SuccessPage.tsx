@@ -7,10 +7,10 @@ const SuccessPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push('/')
-    }, 10000)
+    }, 20000)
 
     return () => clearTimeout(timer)
-  }, [router]) // اضافه کردن router به وابستگی‌ها
+  }, [router]) 
 
   const handleContinueShopping = () => {
     router.push('/menu')
