@@ -50,7 +50,7 @@ const CategoriesPage: React.FC<CategoriesProps> = ({ data }) => {
                     value={query.difficulty}
                     name="difficulty"
                     onChange={changeHandler}
-                    className="border-none w-[150px] h-[35px] rounded-[10px] mr-[10px] px-[10px] py-[6px] text-[#48ac0a] shadow-[0px_4px_16px_rgba(92,245,115,0.123),_0px_8px_32px_rgba(17,17,26,0.05)]"
+                    className="border-none sm:w-[150px] h-[35px] rounded-[10px] mr-[10px] px-[10px] py-[6px] text-[#48ac0a] shadow-[0px_4px_16px_rgba(92,245,115,0.123),_0px_8px_32px_rgba(17,17,26,0.05)] my-4 w-1/2"
                 >
                     <option value="">Select Difficulty</option>
                     <option value="Easy">Easy</option>
@@ -62,7 +62,7 @@ const CategoriesPage: React.FC<CategoriesProps> = ({ data }) => {
                     value={query.time}
                     name="time"
                     onChange={changeHandler}
-                    className="border-none w-[150px] h-[35px] rounded-[10px] mr-[10px] px-[10px] py-[6px] text-[#48ac0a] shadow-[0px_4px_16px_rgba(92,245,115,0.123),_0px_8px_32px_rgba(17,17,26,0.05)]">
+                    className="border-none sm:w-[150px] h-[35px] rounded-[10px] mr-[10px] px-[10px] py-[6px] text-[#48ac0a] shadow-[0px_4px_16px_rgba(92,245,115,0.123),_0px_8px_32px_rgba(17,17,26,0.05)] my-4 w-1/2">
                     <option value="">Select Time</option>
                     <option value="less">Less than 30min</option>
                     <option value="more">More than 30min</option>
