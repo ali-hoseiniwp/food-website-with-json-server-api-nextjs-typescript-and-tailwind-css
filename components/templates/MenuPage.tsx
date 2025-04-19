@@ -31,7 +31,7 @@ const MenuPage: React.FC<MenuPageProps> = ({ data }) => {
   }, [currentPage]);
 
   return (
-    <div className="container my-32">
+    <div className="container mt-32 mb-20 md:mb-24">
       <div className='w-full flex justify-between items-start'>
       <h1 className="text-2xl text-brandColor mb-12 font-bold">Menu</h1>
       <Breadcrumb/>

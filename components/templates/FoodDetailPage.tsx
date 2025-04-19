@@ -42,7 +42,7 @@ const FoodDetailsPage = ({ item }: FoodDetailsPageProps) => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-4 mt-24 mb-20">
+    <div className="max-w-4xl mx-auto py-4 my-16">
       <div className='w-full flex justify-between items-start'>
         <span className='py-1 border-b-4 border-brandColor mb-12 text-2xl font-bold'>Details</span>
         <Breadcrumb />

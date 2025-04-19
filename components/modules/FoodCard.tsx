@@ -13,7 +13,7 @@ const FoodCard: React.FC<FoodCardProps> = ({ item }) => {
     : item.price.toFixed(2);
 
   return (
-    <div className="bg-white dark:bg-slate-700 shadow-md rounded-xl p-4 flex flex-col justify-between">
+    <div className="bg-white dark:bg-slate-700 shadow-md rounded-xl p-4 flex flex-col justify-between max-sm:w-full">
       <div className="relative">
         <Image 
           src={item.image} 
