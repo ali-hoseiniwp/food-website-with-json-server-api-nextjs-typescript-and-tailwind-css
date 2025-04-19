@@ -45,7 +45,7 @@ const CategoriesPage: React.FC<CategoriesProps> = ({ data }) => {
                 </h1>
                 <Breadcrumb />
             </div>
-            <div>
+            <div className="flex justify-between">
                 <select
                     value={query.difficulty}
                     name="difficulty"
