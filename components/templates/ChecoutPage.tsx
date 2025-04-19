@@ -47,7 +47,7 @@ const CheckoutPage = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-16 my-28">
+    <div className="max-w-4xl mx-auto py-16 my-28 min-h-[70vh]">
       <h1 className="text-2xl font-bold mb-8 text-center">Checkout</h1>
       <div className="bg-white dark:bg-slate-700 rounded-lg p-6 shadow-md space-y-4">
         <div>

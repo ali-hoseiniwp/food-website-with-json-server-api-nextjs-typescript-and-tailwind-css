@@ -17,7 +17,7 @@ const SuccessPage = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[80vh] px-4 text-center my-24">
+    <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 text-center my-24">
       <div className="text-green-500 text-5xl mb-4">✔️</div>
       <h1 className="text-2xl font-bold mb-2">Order Placed Successfully!</h1>
       <p className="text-gray-600 dark:text-gray-300 mb-4">
