@@ -49,7 +49,7 @@ const CartPage = () => {
   }
 
   return (
-    <div className="max-w-5xl mx-auto py-10 min-h-screen my-24">
+    <div className="max-w-5xl mx-auto py-10 min-h-screen mt-24 mb-14">
       <h1 className="text-3xl font-bold text-center mb-8">Your Cart</h1>
 
       <div className="space-y-6">
@@ -111,7 +111,7 @@ const CartPage = () => {
       </div>
 
       <div className="mt-10 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-xl font-bold">
+        <p className="text-xl font-bold mb-4">
           Grand Total: <span className="text-green-600">${totalPrice.toFixed(2)}</span>
         </p>
         <div className="flex gap-4">
