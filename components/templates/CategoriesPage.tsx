@@ -67,11 +67,13 @@ const CategoriesPage: React.FC<CategoriesProps> = ({ data }) => {
                     <option value="less">Less than 30min</option>
                     <option value="more">More than 30min</option>
                 </select>
+                <div className="w-full sm:w-fit">
                 <button
                     onClick={searchHandler}
                     className="border-none bg-brandColor text-white h-[35px] px-5 rounded-lg cursor-pointer">
                     Search
                 </button>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-20">
